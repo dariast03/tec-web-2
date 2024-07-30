@@ -1,0 +1,12 @@
+.container {
+    max-width: 600px;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100svh;
+
+    background: radial-gradient(circle farthest-corner at 100% 0%, #66e3ffff 0%, #66ffc2ff 50%, #6966ffff 100%), radial-gradient(circle farthest-corner at 0% 100%, #ffc8c6ff 0%, #ffc6e6ff 50%, #fff7c6ff 100%), radial-gradient(circle farthest-side at 0% 0%, #a166ffff 0%, #6685ffff 50%, #ff66deff 100%);
+    background-blend-mode: difference;
+}
